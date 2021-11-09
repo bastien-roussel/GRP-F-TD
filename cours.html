@@ -7,18 +7,19 @@
     <meta charset="utf-8" />
     <meta name="description" content="Une belle description pour notre ami google" />
     <meta name="author" content="Bastien ROUSSEL" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 
 <body>
     <!-- ENTETE DU SITE -->
     <header>
-        <h1>TITRE DU SITE</h1>
+        <h1 id="titre">TITRE DU SITE</h1>
         <nav>
             <ul>
-                <li> ACCUEIL </li>
-                <li> CONTACT </li>
-                <li> JE SAIS PAS </li>
+                <li class="menu"> ACCUEIL </li>
+                <li class="menu"> CONTACT </li>
+                <li class="menu"> JE SAIS PAS </li>
             </ul>
         </nav>
     </header>
@@ -27,7 +28,7 @@
     <!-- UNE PREMIERE SECTION : UN FORMULAIRE DE CONTACT-->
     <section>
         <h2> ICI C'EST UN FORMULAIRE </h2>
-        <form action="" method="get">
+        <form class="mon-form" action="" method="get">
 
             <label> Rentre ton blase mon gars !</label>
             <input type="text" required />
@@ -78,15 +79,15 @@
         <h2> LA SECTION SUR UN ARTICLE </h2>
 
         <!-- UN ARTICLE SUPER INTERESSANT-->
-        <article>
-            <h3> MON BEL ARTICLE </h3>
+        <article class="mon-article">
+            <h3 class="titre-art"> MON BEL ARTICLE </h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> <br />Aenean sit amet mi eget nunc venenatis rhoncus in sagittis nunc. Nam est enim, porttitor ac orci nec, aliquam cursus ante. Fusce molestie purus vulputate risus finibus,
                 at euismod sapien hendrerit. Ut a sodales tortor. Quisque a auctor felis. Proin hendrerit hendrerit vehicula. Nunc nec pharetra mi. Cras venenatis felis vitae nisi dapibus aliquam. Sed sed libero et diam sodales commodo luctus ut felis.
                 Donec iaculis quis justo nec dictum. Morbi tortor tellus, aliquam in mattis a, suscipit ut metus. Etiam placerat, risus vel vestibulum convallis, nisl elit pellentesque dui, quis tincidunt metus tortor eu enim. Etiam lobortis blandit massa,
                 ac porta turpis mollis porttitor. Aenean a nisi nec diam maximus tristique et id mi. Pellentesque neque ex, eleifend vel purus vitae, venenatis tincidunt nulla. Cras non blandit sapien.
             </p>
-            <img alt="Un excellent cocktail" src="assets/imgs/cocktail_BobMarley.jpg" width="70" />
+            <img class="mon-img" alt="Un excellent cocktail" src="assets/imgs/cocktail_BobMarley.jpg" />
         </article>
     </section>
 
