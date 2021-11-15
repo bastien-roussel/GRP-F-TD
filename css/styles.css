@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+.inline {
+    display: inline-block;
+}
+
 #titre {
     color: #C66666;
     font-size: 3em;
